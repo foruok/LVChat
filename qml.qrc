@@ -1,0 +1,39 @@
+<RCC>
+    <qresource prefix="/">
+        <file>res/head_0.png</file>
+        <file>res/head_1.png</file>
+        <file>res/head_2.png</file>
+        <file>res/head_3.png</file>
+        <file>res/head_4.png</file>
+        <file>res/head_5.png</file>
+        <file>res/head_6.png</file>
+        <file>res/head_7.png</file>
+        <file>res/head_8.png</file>
+        <file>res/head_9.png</file>
+        <file>res/ic_ok.png</file>
+        <file>res/ic_ok_pressed.png</file>
+        <file>LoginView.qml</file>
+        <file>main.qml</file>
+        <file>ImageButton.qml</file>
+        <file>ChatView.qml</file>
+        <file>Contacts.qml</file>
+        <file>res/ic_microphone.png</file>
+        <file>res/chat_from_bg_normal.9.png</file>
+        <file>res/chat_from_bg_pressed.9.png</file>
+        <file>res/chat_to_bg_normal.9.png</file>
+        <file>res/chat_to_bg_pressed.9.png</file>
+        <file>res/ic_back.png</file>
+        <file>res/ic_back_pressed.png</file>
+        <file>res/ic_voice.png</file>
+        <file>res/ic_search.png</file>
+        <file>res/ic_search_pressed.png</file>
+        <file>res/ic_chat.png</file>
+        <file>res/ic_chat_pressed.png</file>
+        <file>AcceptView.qml</file>
+        <file>res/ic_accept.png</file>
+        <file>res/ic_reject.png</file>
+        <file>LVChat.qm</file>
+        <file>FlatButton.qml</file>
+        <file>res/appicon.png</file>
+    </qresource>
+</RCC>
