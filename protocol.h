@@ -5,7 +5,7 @@
 #define PACKET_LINE_MARK    "\r\n"
 #define DISCOVER_PACKET "discover"
 #define DISCOVER_PACKET_FULL  "discover\r\n"
-#define DISCOVER_REPLY_FORMAT "${name},${portraitIndex}\r\n"
+#define DISCOVER_REPLY_FORMAT "discover,${name},${portraitIndex}\r\n"
 #define DISCOVER_REPLY_MARK "discover,%1,%2\r\n"
 #define TALK_REQ_PACKET_FORMAT "talking,${name},${portraitIndex}\r\n"
 #define TALK_REQ_PACKET_MARK  "talking,%1,%2\r\n"

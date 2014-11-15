@@ -20,7 +20,6 @@ int main(int argc, char *argv[])
     QTranslator ts;
     ts.load(":/LVChat.qm");
     app.installTranslator(&ts);
-    qmlRegisterType<PeerInfo>("an.qt.LVChat", 1, 0, "PeerInfo");
     MessengerManager *mgr = MessengerManager::instance();
     SimpleAudioRecorder *recorder = new SimpleAudioRecorder(QDir::currentPath());
     QQmlApplicationEngine engine;

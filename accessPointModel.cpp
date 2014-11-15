@@ -95,12 +95,8 @@ void AccessPointModel::scan()
 
 void AccessPointModel::talkTo(int index)
 {
-    MessengerManager::instance()->talkTo(m_dptr->m_accessPoints.at(index));
-}
-
-void AccessPointModel::setCurrent(int index)
-{
     m_dptr->m_current = index;
+    MessengerManager::instance()->talkTo(m_dptr->m_accessPoints.at(index));
 }
 
 QString AccessPointModel::currentNick()

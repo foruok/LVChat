@@ -62,7 +62,7 @@ Item {
         }
 
         function onDurationChanged(duration){
-            text = "%1\"".arg(Math.round(duration/1000));
+            text = "%1\"".arg(Math.ceil(duration/1000));
         }
         states:[
             State {

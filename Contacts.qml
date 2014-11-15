@@ -93,7 +93,6 @@ Item {
             onClicked: {
                 var cur = peoples.currentIndex;
                 if(cur >= 0){
-                    var peer = apmodel.setCurrent(cur);
                     contacts.talkTo(cur);
                 }
             }

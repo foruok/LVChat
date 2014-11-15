@@ -64,7 +64,6 @@ protected:
     void timerEvent(QTimerEvent *e);
 
 private:
-    /* return the count of processed message*/
     void processPacket();
     void replyRequest(bool agree);
     void discoverReply();
